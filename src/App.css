@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.SidePanel {
+  background-color: #2c2f35;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 220px;
+  height: 100%;
+}
+
+body {
+  background-color: #282c34;
+}
+
+.child-div-SidePanel-img {
+  width: 30px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.child-div-SidePanel-h3 {
+  position: absolute;
+  top: 28%;
+  left: 30%;
 }
